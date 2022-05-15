@@ -365,7 +365,7 @@ public class Preparation_Counter_Interface extends JFrame
 						while(rs6.next())
 						{
 							// Loop to get each item quantity and display them
-							for(int i=0;i<OrderQuantity;i++)
+							for(int i=0;i<ItemQuantity;i++)
 							{
 								// Store item name
 								ItemName=rs6.getString("Name");			
